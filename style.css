@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.footer{
+    height:60px;
+    background-color: black;
+}
+.heading{
+    color:white;
+    text-align: center;
+    padding:10px;
+}
+
+.inputbox{
+    text-align:center;
+    margin-top: 20px;
+    position:relative;
+}
+.insertbar{
+    width:40%;
+    padding:10px;
+    border:none;
+    outline: none;
+}
+#button{
+    padding:10px;
+    border:none;
+    position:absolute;
+    background-color:black;
+    color:white;
+}
+.container{
+    margin-top:50px;
+}
+.inner-container{
+    margin-left:50%;
+    width:40%;
+    margin-top:10px;
+    background-color: white;
+    color:black;
+    right:20px;
+    position:relative;
+    height:40px;
+
+}
+.inner-container h1{
+    display:inline-block;
+    padding:10px;
+    font-size: 18px;
+}
+.del{
+    padding:5px;
+    position:absolute;
+    top:0;
+    right:0;
+    font-size:18px;
+    border-radius: 100%;
+    margin-top:3.5px;
+    margin-right:5px;
+    border-color:black;
+    border-width:1px;
+    border-style: solid;
+    
+}
+.del:hover{
+    cursor:pointer;
+    background-color: red;
+    color:white;
+}
+.cor{
+    padding:5px;
+    position:absolute;
+    top:0;
+    right:40px;
+    font-size:18px;
+    border-radius: 100%;
+    margin-top:3.5px;
+    margin-right:5px;
+    border-color:black;
+    border-width:1px;
+    border-style: solid;
+    border:no
+}
+#button:hover{
+    background-color: blue;
+    cursor:pointer;
+
+}
+.cor:hover{
+    cursor:pointer;
+    color:white;
+    background-color: green;
+    
+}
